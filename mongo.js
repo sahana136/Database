@@ -16,7 +16,7 @@ app.use(methodOverride('__method'));
 app.set('view engine', 'ejs');
 
 // Mongo URI
-const mongoURI = 'mongodb+srv://IT254_MiniProject_Team:nF8Zx9gqSdnL9JT@it254miniproject.vjv2o.mongodb.net/Upload?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://database:password@it254miniproject.vjv2o.mongodb.net/Upload?retryWrites=true&w=majority';
 
 // create Mongo connection
 const conn = mongoose.createConnection(mongoURI);
